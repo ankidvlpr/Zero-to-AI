@@ -21,7 +21,7 @@ Each week has its own folder with:
 - [x] Week 1 — Python Basics
 - [x] Week 2 — Control Flow & Functions
 - [x] Week 3 — Data Structures
-- [ ] Week 4 — File I/O, Modules & FastAPI Intro
+- [x] Week 4 — File I/O, Modules & FastAPI Intro
 - [ ] Week 5 — Git & GitHub
 - [ ] Week 6 — Jupyter, Debugging & Logging
 - [ ] Week 7 — NumPy, Pandas & SQL
