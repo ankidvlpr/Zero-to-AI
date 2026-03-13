@@ -1,4 +1,4 @@
-# Zero to AI 🚀
+# Zero to AI 
 
 Building in public — from Python basics to deployed AI products.
 
