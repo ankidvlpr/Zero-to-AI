@@ -1,4 +1,4 @@
-# Messy CSV Cleaner (Titanic Dataset) 🧹
+# Messy CSV Cleaner (Titanic Dataset) 
 
 A simple Python script built to clean a messy dataset of Titanic passengers using the built-in `csv` module.
 
