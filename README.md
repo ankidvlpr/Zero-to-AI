@@ -59,7 +59,7 @@ I'm not racing to finish it. I'm building it properly — one week, one delivera
 
 ## 🛠️ Tech Stack (so far)
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green)
 ![Git](https://img.shields.io/badge/Git-GitHub-black)
 
