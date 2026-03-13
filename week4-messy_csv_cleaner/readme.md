@@ -6,7 +6,7 @@ The program reads an uncleaned CSV file, performs several data cleaning operatio
 
 ## Cleaning Operations Performed
 
-The script takes [uncleaned_titanic.csv](cci:7://file:///c:/Users/ankit/Desktop/Zero-to-AI/week4-messy_csv_cleaner/uncleaned_titanic.csv:0:0-0:0) and applies the following fixes before saving it as [cleaned.csv](cci:7://file:///c:/Users/ankit/Desktop/Zero-to-AI/week4-messy_csv_cleaner/cleaned.csv:0:0-0:0):
+The script takes `uncleaned_titanic.csv` and applies the following fixes before saving it as `cleaned.csv`:
 
 - **Fix Missing Ages**: Finds the median age from available data and fills all empty `Age` cells with it.
 - **Remove Empty Cabins**: Finds all empty `Cabin` cells and replaces them with `"Unknown"`.
@@ -18,10 +18,10 @@ The script takes [uncleaned_titanic.csv](cci:7://file:///c:/Users/ankit/Desktop/
 
 This project helped me understand how to:
 
-- Reads and writes CSV files using `csv.reader` and `csv.writer`
-- Calculates the median of a numerical column (Age)
-- Replaces missing numerical data with the calculated median
-- Handles missing text data 
+- Read and write CSV files using `csv.reader` and `csv.writer`
+- Calculate the median of a numerical column (Age)
+- Replace missing numerical data with the calculated median
+- Handle missing text data
 
 ## How to run
 
