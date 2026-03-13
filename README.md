@@ -72,4 +72,4 @@ Feel free to reach out — **ankidvlpr@gmail.com**
 
 ---
 
-*Started: 2025 | Status: Active 🟢*
+Status: Active 🟢*
