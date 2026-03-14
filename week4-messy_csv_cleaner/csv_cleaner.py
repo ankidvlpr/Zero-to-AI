@@ -1,64 +1,93 @@
 """
-Titanic Dataset Cleaner
-
-- Strips leading and trailing whitespace from every field in each row.
-- Computes the median of available Age values.
-- Replaces missing Age values with the computed median.
-- Replaces empty Cabin entries with "Unknown".
-- Fills missing Embarked values with "S".
-- Writes the cleaned dataset to a new CSV file.
-
+- compute the median value                           DONE
+- fill missing age --> median of age                -
+- empty embraked --> "s"                            -            
+- remove white spaces from every part               -            
+- 
 """
+
+
+"""sort the list --> find midle value --> then assign median value"""
+
 import csv
 
-# Collect valid Age values to determine the median
-count = []
+def find_empty_age(files):
+    count = []                        # store ages
+    with open(files) as file:         # open file
+        reader = csv.reader(file)     # read csv
 
-with open("uncleaned_titanic.csv") as file:
-    reader = csv.reader(file)
+        for parts in reader:          # loop rows
+        
+            if parts[0] == "PassengerId": # skip header
+                continue
 
-    for parts in reader:
+            age = parts[5]            # get age
 
-        if parts[0] == "PassengerId":   # Skip the header row
-            continue
+            if age != "":             # check empty
+                count.append(float(age)) # save age
 
-        age = parts[5]                  # Access the Age column
+    ascending = sorted(count)         # sort list
+    middle = len(ascending)//2        # find middle
+    median = ascending[middle]        # value median
 
-        if age == "":                   # Skip rows with missing Age
-            continue
-
-        count.append(float(age)) 
-        # Append valid age as a float
-
-
-""" Calculate the median age from the collected numerical values """
-ascending = sorted(count)
-column    = len(ascending) // 2
-median    = ascending[column]
+    return median                     # return median
 
 
-with open("cleaned.csv", "w") as new_file, open("uncleaned_titanic.csv") as file:
-    writer = csv.writer(new_file)  # Prepare the writer for the output file
-    reader = csv.reader(file)      # Prepare the reader for the input file
+def write_clean_data(files, new_files):
+    median_age = find_empty_age(files) # get median
+    with open(files) as file, open(new_files, "w") as new_file: # open files
+        reader = csv.reader(file)     # read old
+        writer = csv.writer(new_file) # write new
 
-    for parts in reader:  
+        for parts in reader:          # loop rows
 
-        clean_parts = []
-        for part in parts:    # Strip excess whitespace from each cell
-            clean_parts.append(part.strip())  
-        parts = clean_parts   # Assign the cleaned row back to parts
-     
-        age    = parts[5]
-        embark = parts[11]
-        cabin = parts[10]
+            if parts[0] == "PassengerId": # write header
+                writer.writerow(parts)
+                continue
 
-        if cabin == "":
-            parts[10] = "Unknown"
+            clean_space = []          # empty list
+            for part in parts:        # loop cells
+                clean_space.append(part.strip()) # strip text
+            parts = clean_space       # update row
 
-        if embark == "":
-            parts[11] = "S"
+            age = parts[5]            # get age
+            embark = parts[11]        # get port
+            cabin = parts[10]         # get cabin
 
-        if age == "":
-            parts[5] = median   
+            if age == "":             # missing age
+                parts[5] = str(median_age) # fill median
+            
+            if embark == "":          # missing port
+                parts[11] = "S"       # fill S
 
-        writer.writerow(parts)
+            if cabin == "":           # missing cabin
+                parts[10] = "Unknown" # fill unknown
+
+            writer.writerow(parts)    # write row
+
+
+def main():
+
+    input_file = "uncleaned_titanic.csv" # input file
+    output_file = "cleaned.csv"       # output file
+    write_clean_data(input_file, output_file) # start clean
+
+main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
