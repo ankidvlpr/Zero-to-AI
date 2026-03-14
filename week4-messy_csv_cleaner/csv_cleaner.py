@@ -1,8 +1,8 @@
 """
 - compute the median value                           DONE
-- fill missing age --> median of age                -
-- empty embraked --> "s"                            -            
-- remove white spaces from every part               -            
+- fill missing age --> median of age                 DONE
+- empty embraked --> "s"                             DONE         
+- remove white spaces from every part                DONE            
 - 
 """
 
