@@ -78,3 +78,49 @@ python dataloader.py
 - Handle headers separately from data rows during splitting.
 - Add more validations (invalid ratio, empty file, wrong path).
 - Write unit tests for each method.
+
+---
+
+# Week 5: Backtest Simulator (Separate Project)
+
+This is a separate mini-project under Week 5 (`backtest_simulator`) focused on strategy simulation using price data.
+It is not mixed with the `DataLoader` class logic.
+
+## What This Backtest Does
+
+- Loads OHLCV price data from CSV using `csv.DictReader`.
+- Extracts `Close` prices into a list for strategy calculations.
+- Computes SMA (Simple Moving Average) for a given period.
+- Generates rule-based signals:
+  - `BUY` when Close > SMA
+  - `SELL` when Close < SMA
+  - `HOLD` when Close == SMA
+  - `No signal yet` before enough data points
+- Runs a simple all-in/all-out backtest:
+  - Start cash = `10000`
+  - Buy full position on BUY (if flat)
+  - Sell full position on SELL (if in position)
+
+## Implemented Methods (Backtest)
+
+- `load(path)`: Reads CSV rows and stores close prices.
+- `sma(period)`: Returns SMA series with `None` for warm-up candles.
+- `generate_signals(period)`: Converts SMA comparison into action signals.
+- `backtest(period)`: Simulates trades and returns final cash.
+- `stats()`: Returns summary metrics:
+  - total return (%)
+  - total trades
+  - win rate
+  - final cash
+
+## Files (Backtest Simulator)
+
+- `backtest_simulator/backtest_engine.py` - strategy + backtest implementation
+- `backtest_simulator/sample_prices.csv` - sample market data used by the simulator
+
+## How To Run (Backtest)
+
+```bash
+cd backtest_simulator
+python backtest_engine.py
+```
