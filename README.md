@@ -28,7 +28,7 @@ Each week has its own folder with:
 - [ ] Week 8 — Data Cleaning & EDA
 - [ ] Week 9 — Visualization
 - [ ] Week 10 — Clean Python & Testing
-- [ ] Week 11 — Object-Oriented Programming
+- [x] Week 11 — Object-Oriented Programming
 - [ ] Week 12 — Phase 1 Capstone
 
 ### Phase 2 — Applied Math for ML

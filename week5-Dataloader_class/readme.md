@@ -25,20 +25,31 @@ The main things I learned in this project:
 
 ## Visual Workflow
 
-```mermaid
-flowchart TD
-    A[Create DataLoader with file path] --> B[load()]
-    B --> C{Data loaded?}
-    C -- No --> E[Raise ValueError]
-    C -- Yes --> D[validate()]
-    D --> F{Choose operation}
-    F --> G[sample(n)]
-    F --> H[split(ratio)]
-    F --> I[stats()]
-
-    G --> J[Return first n lines]
-    H --> K[Return train_data and test_data]
-    I --> L[Return rows and columns]
+```text
+Start
+  |
+  v
+Create DataLoader(path)
+  |
+  v
+load() -> file content stored in self.data
+  |
+  v
+validate()
+  |
+  +--> If data is empty/not loaded -> Raise ValueError
+  |
+  v
+Choose operation
+  |
+  +--> sample(n)      -> Return first n lines
+  |
+  +--> split(ratio)   -> Return train_data, test_data
+  |
+  +--> stats()        -> Return rows and columns
+  |
+  v
+End
 ```
 
 ## Learning Value
