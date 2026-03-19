@@ -1,6 +1,6 @@
 # Zero to AI 
 
-Building in public — from Python basics to deployed AI products.
+Building in public — from basic python scripts to deployed AI products.
 
 Following my own researched AI roadmap — a structured 108-week curriculum
 covering Python, Data Analysis, Classical ML, Deep Learning, and LLMs.
