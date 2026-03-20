@@ -6,5 +6,12 @@ how are u! im learning about merge conflict
 adding this feature to 'feature-branch'
 
 
+print("hello")
+
+
+
+"this is imp code here"
+
+
 
 this is my code 
