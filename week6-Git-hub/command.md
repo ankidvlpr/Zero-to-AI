@@ -1,5 +1,4 @@
-hi this is my git guide!
-git log
+Hi im ankit!
 
 im learning git & github.
 how are u! im learning about merge conflict
