@@ -22,14 +22,15 @@ Each week has its own folder with:
 - [x] Week 2 — Control Flow & Functions
 - [x] Week 3 — Data Structures
 - [x] Week 4 — File I/O, Modules & FastAPI Intro
-- [ ] Week 5 — Git & GitHub
-- [ ] Week 6 — Jupyter, Debugging & Logging
-- [ ] Week 7 — NumPy, Pandas & SQL
-- [ ] Week 8 — Data Cleaning & EDA
-- [ ] Week 9 — Visualization
-- [ ] Week 10 — Clean Python & Testing
-- [x] Week 11 — Object-Oriented Programming
+- [x] Week 5 — Object-Oriented Programming
+- [x] Week 6 — Git & GitHub
+- [ ] Week 7 — Jupyter, Debugging & Logging
+- [ ] Week 8 — NumPy, Pandas & SQL
+- [ ] Week 9 — Data Cleaning & EDA
+- [ ] Week 10 — Visualization
+- [ ] Week 11 — Clean Python & Testing
 - [ ] Week 12 — Phase 1 Capstone
+
 
 ### Phase 2 — Applied Math for ML
 - [ ] Coming soon...
