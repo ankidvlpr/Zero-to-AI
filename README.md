@@ -44,15 +44,15 @@ Each week has its own folder with:
 
 That's a fair question.
 
-Most people look at a roadmap like this and think — *"This is too much. No one needs all of this."*
+Most people look at a roadmap like this and think  *"This is too much. No one needs all of this."*
 
 And they're partially right. You don't need all of it to get your first job. But here's what I've come to understand:
 
-The AI field doesn't reward people who know one tool. It rewards people who understand **why** things work — not just how to use them. Anyone can follow a tutorial and call an API. Far fewer people can debug a failing model, evaluate whether a system is actually working, or make architecture decisions that hold up at scale.
+The AI field doesn't reward people who know one tool. It rewards people who understand **why** things work  not just how to use them. Anyone can follow a tutorial and call an API. Far fewer people can debug a failing model, evaluate whether a system is actually working, or make architecture decisions that hold up at scale.
 
-This roadmap is long because **shortcuts have a cost** — and that cost usually shows up 12-18 months into your career when you hit problems you don't have the foundation to solve.
+This roadmap is long because **shortcuts have a cost**  and that cost usually shows up 12-18 months into your career when you hit problems you don't have the foundation to solve.
 
-I'm not racing to finish it. I'm building it properly — one week, one deliverable at a time.
+I'm not racing to finish it. I'm building it properly  one week, one deliverable at a time.
 
 > *"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."*
 
@@ -63,6 +63,13 @@ I'm not racing to finish it. I'm building it properly — one week, one delivera
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green)
 ![Git](https://img.shields.io/badge/Git-GitHub-black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 
 ---
 
