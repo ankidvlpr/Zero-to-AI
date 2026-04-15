@@ -63,19 +63,17 @@ I'm not racing to finish it. I'm building it properly  one week, one deliverable
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green)
 ![Git](https://img.shields.io/badge/Git-GitHub-black)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-orange)
+![NumPy](https://img.shields.io/badge/NumPy-blue)
+![Pandas](https://img.shields.io/badge/Pandas-purple)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue)
+![GitHub](https://img.shields.io/badge/GitHub-black)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-blue)
+![Seaborn](https://img.shields.io/badge/Seaborn-blue)
 
 ---
 
-## 📬 Connect
-
-On a similar journey and want the roadmap I'm following?
+## Connect
 Feel free to reach out — **ankidvlpr@gmail.com**
 
 ---
