@@ -27,7 +27,7 @@ Each week has its own folder with:
 - [x] Week 7 — Jupyter, Debugging & Logging
 - [x] Week 8 — NumPy, Pandas & SQL
 - [x] Week 9 — Data Cleaning & EDA
-- [ ] Week 10 — Visualization
+- [x] Week 10 — Visualization
 - [ ] Week 11 — Clean Python & Testing
 - [ ] Week 12 — Phase 1 Capstone
 
