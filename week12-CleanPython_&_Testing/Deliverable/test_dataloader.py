@@ -4,7 +4,7 @@ from dataloader import CSVDataLoader
 
 @pytest.fixture
 def loader():
-    return CSVDataLoader('tests/sample.csv')
+    return CSVDataLoader('Deliverable/sample.csv')
 
 def test_loads_data(loader):
     loader.load()
