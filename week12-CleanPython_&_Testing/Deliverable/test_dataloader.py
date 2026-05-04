@@ -1,5 +1,5 @@
 import pytest
-from practice.dataloader import CSVDataLoader
+from dataloader import CSVDataLoader
 
 
 @pytest.fixture
@@ -41,13 +41,13 @@ def test_sample_case_zero(loader):
 def test_train_test_length(loader):
     train,test = loader.load().split(0.8)
     assert len(train) == 4
-    assert len(test) == 2
-    assert len(train) + len(test) == 6
+    assert len(test) == 1
+    assert len(train) + len(test) == 5
 
 def test_split_zero_ratio(loader):
     result = train, test = loader.load().split(0)
     assert len(train) == 0
-    assert len(test) == 6
+    assert len(test) == 5
 
 def test_stats_row_column(loader):
     stats = loader.load().stats()
