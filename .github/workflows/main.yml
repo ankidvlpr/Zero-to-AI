@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: week12-CleanPython_&_Testing
+        working-directory: phase-1-foundations/week12-CleanPython_&_Testing
 
     steps:
       - name: Check out repository
