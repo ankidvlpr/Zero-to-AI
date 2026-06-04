@@ -8,3 +8,4 @@ week08-NUMPY_PANDAS_SQL/Day6_pandas/Deliverable/NYC_taxi_data.csv
 **/practice/**
 !**/practice/.gitkeep
 tests/
+data.csv
