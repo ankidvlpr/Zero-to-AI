@@ -9,9 +9,11 @@ covering Python, Data Analysis, Classical ML, Deep Learning, and LLMs.
 
 ## 🗂️ Structure
 
-Each week has its own folder with:
-- The deliverable/project
-- A `README.md` explaining what was built and why
+The roadmap is now organized by phase.
+
+- `phase-1-foundations/` contains the current foundation track
+- Each week inside the phase has its own deliverable/project folder
+- Most weeks include a `README.md` explaining what was built and why
 
 ---
 
@@ -26,10 +28,10 @@ Each week has its own folder with:
 - [x] Week 6 — Git & GitHub
 - [x] Week 7 — Jupyter, Debugging & Logging
 - [x] Week 8 — NumPy, Pandas & SQL
-- [x] Week 9 — Data Cleaning & EDA
-- [x] Week 10 — Visualization
-- [ ] Week 11 — Clean Python & Testing
-- [ ] Week 12 — Phase 1 Capstone
+- [x] Week 10 — Data Cleaning & EDA
+- [x] Week 11 — Visualization
+- [x] Week 12 — Clean Python & Testing
+- [x] Week 13 — Phase 1 Capstone
 
 
 ### Phase 2 — Applied Math for ML
