@@ -11,7 +11,9 @@ covering Python, Data Analysis, Classical ML, Deep Learning, and LLMs.
 
 The roadmap is now organized by phase.
 
-- `phase-1-foundations/` contains the current foundation track
+- `phase-1-dev-foundation/` contains the dev foundation track
+- `phase-2-math-for-ai/` contains the math for AI track
+- `phase-3-machine-learning/` contains the machine learning track
 - Each week inside the phase has its own deliverable/project folder
 - Most weeks include a `README.md` explaining what was built and why
 
@@ -19,7 +21,7 @@ The roadmap is now organized by phase.
 
 ## 📈 Progress
 
-### Phase 1 — Python & Dev Foundations
+### Phase 1 — Dev Foundation
 - [x] Week 1 — Python Basics
 - [x] Week 2 — Control Flow & Functions
 - [x] Week 3 — Data Structures
@@ -34,11 +36,32 @@ The roadmap is now organized by phase.
 - [x] Week 13 — Phase 1 Capstone
 
 
-### Phase 2 — Applied Math for ML
-- [ ] Coming soon...
+### Phase 2 — Math for AI
+- [ ] Week 13 — Linear Algebra: Vectors & Matrices
+- [ ] Week 14 — Linear Algebra: Matrix Ops & Systems
+- [ ] Week 15 — Calculus for ML
+- [ ] Week 16 — Probability Fundamentals
+- [ ] Week 17 — Statistics + Information Theory
+- [ ] Week 18 — Distributions & Sampling
+- [ ] Week 19 — PCA & Dimensionality Reduction
+- [ ] Week 20 — Optimization & Gradient Descent
+- [ ] Week 21 — A/B Testing & Experimentation
 
-### Phase 3 — Classical Machine Learning
-- [ ] Coming soon...
+### Phase 3 — Machine Learning
+- [ ] Week 22 — Linear & Logistic Regression
+- [ ] Week 23 — Regularization & Overfitting
+- [ ] Week 24 — Tree Models & Ensembles
+- [ ] Week 25 — KNN & Naive Bayes
+- [ ] Week 26 — Model Evaluation Deep Dive
+- [ ] Week 27 — Feature Engineering
+- [ ] Week 28 — Unsupervised Learning
+- [ ] Week 29 — Time Series Basics
+- [ ] Week 30 — NLP Basics
+- [ ] Week 31 — ML Pipelines & Experiment Tracking
+- [ ] Week 32 — Model Deployment with FastAPI
+- [ ] Week 33 — End-to-End ML Project
+- [ ] Week 34 — Advanced Classical ML & Anomaly Detection
+- [ ] Week 35 — Phase 3 Capstone: Tabular ML Product
 
 ---
 
